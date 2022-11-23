@@ -1,0 +1,142 @@
+body {
+  background-image: url(./concessionaria.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.base {
+  width: 70%;
+  height: 60%;
+  position: relative;
+  background: #f0f0f0;
+}
+
+.texto {
+  font-size: 2vh;
+  text-align: center;
+}
+
+.area7 {
+  width: 3%;
+  height: 4%;
+  position: absolute;
+  background: white;
+  border: solid;
+  top: 3%;
+  transform: rotate(10deg);
+}
+
+.area1 {
+  width: 74%;
+  height: 50%;
+  margin: 0 auto;
+  position: absolute;
+  background: white;
+  border: solid;
+  top: 24%;
+  left: 17%;
+}
+
+.area9 {
+  width: 4%;
+  height: 4%;
+  position: absolute;
+  background: white;
+  border: solid;
+  top: 48%;
+  left: 95%;
+  transform: rotate(45deg);
+}
+
+.area11 {
+  width: 17%;
+  height: 46%;
+  position: absolute;
+  background: white;
+  border: solid;
+  top: 18%;
+  transform: rotate(7deg);
+}
+
+.area2 {
+  width: 30%;
+  height: 30%;
+  position: relative;
+  top: 70%;
+  left: 1%;
+  border: solid;
+  background: white;
+}
+
+.area3 {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  border: solid;
+  top: -1%;
+  left: -1%;
+  z-index: 1;
+}
+
+.area4 {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  border: solid;
+  top: 88%;
+  left: 89%;
+  z-index: 1;
+}
+
+.area10 {
+  position: absolute;
+  width: 7%;
+  height: 27%;
+  border: solid;
+  top: 62%;
+  left: 90%;
+  background: white;
+  transform: rotate(45deg);
+}
+
+.area5 {
+  width: 25%;
+  height: 34%;
+  position: relative;
+  top: -31%;
+  left: 75%;
+  border: solid;
+  background: white;
+}
+
+.area6 {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  border: solid;
+  top: -2%;
+  left: -1%;
+  z-index: 1;
+}
+
+.area8 {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  border: solid;
+  top: 85%;
+  left: 89%;
+  z-index: 1;
+}
+
+.texto:hover {
+  background: #0000FF;
+  cursor: pointer;
+}
